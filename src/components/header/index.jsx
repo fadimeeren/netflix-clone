@@ -13,10 +13,13 @@ const Header = () => {
 
       <Link
         to="/watch-list"
-        className="flex gap-3 items-center hover:text-white transition-all duration-300 px-4 py-2"
+        className="flex gap-3 items-center hover:text-white transition-all duration-300 px-4 py-2 hover:bg-white/10 rounded-lg"
       >
-        <div>
+        <div className="relative">
           <Bookmark />
+          <span className="absolute right-[-13px] top-[-13px] bg-gradient-to-r from-red-500 to-red-600 size-6 grid place-items-center text-xs font-bold rounded-full shadow-lg shadow-red-500/50">
+            4
+          </span>
         </div>
         İzleme Listesi
       </Link>
