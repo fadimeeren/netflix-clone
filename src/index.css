@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-[#141414] via-[#1a1a1a] to-[#0a0a0a] text-[#e6e6e6] min-h-screen;
+  }
+}
